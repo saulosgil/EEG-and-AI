@@ -72,7 +72,7 @@ ggplot() +
   scale_fill_viridis_c(
     option = "viridis",
     na.value = "lightgray",
-    name = "Ocorrências"
+    name = "Occurrences"
   ) +
   theme_bw(base_size = 12) +
   theme(
@@ -85,7 +85,5 @@ ggplot() +
     legend.key.width = unit(2, "cm")
   ) +
   labs(
-    title = "Distribuição de Países no Dataset",
-    subtitle = "xxxxxxxxxxxx",
-    caption = "Fonte: seu dataset"
+    title = "Geographic distribution of studies included in the analysis",
   )
