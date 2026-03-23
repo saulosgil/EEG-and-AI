@@ -87,3 +87,4 @@ ggplot() +
   labs(
     title = "Geographic distribution of studies included in the analysis",
   )
+
